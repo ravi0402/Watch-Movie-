@@ -1,0 +1,149 @@
+
+            
+[
+  {
+    "name": "Azurite",
+    "description": "Lorem ipsum changes the way copy is viewed. It reduces text-based content to a visual design element — a shape of text — instead of what it should be: valuable information someone is going to have to enter and/or read. Dummy text means you won't see the inevitable variations that show up once real information is entered. It means you won't know what it's like to fill out forms on your site. Dummy text is a veil between you and reality.",
+    "shine": 8,
+    "price": 110.50,
+    "rarity": 7,
+    "color": "#CCC",
+    "faces": 14,
+    "canPurchase": true,
+    "soldOut": true,
+    "images": [
+        {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork.png"
+            },
+             {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork.png"
+            }
+    ],
+    "reviews": [
+    {
+                "stars": 5,
+                "body": "I love it",
+                "Author": "joe@gmail.com"
+            },
+            {
+                "stars": 3,
+                "body": "It was ok",
+                "Author": "sore@gmail.com"
+            }
+    
+    ]
+  },
+  
+    {
+    "name": "Azurite",
+    "description": "Lorem ipsum changes the way copy is viewed. It reduces text-based content to a visual design element — a shape of text — instead of what it should be: valuable information someone is going to have to enter and/or read. Dummy text means you won't see the inevitable variations that show up once real information is entered. It means you won't know what it's like to fill out forms on your site. Dummy text is a veil between you and reality.",
+    "shine": 8,
+    "price": 110.50,
+    "rarity": 7,
+    "color": "#CCC",
+    "faces": 14,
+    "canPurchase": true,
+    "soldOut": true,
+    "images": [
+        {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork.png"
+            },
+             {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork.png"
+            }
+    ],
+    "reviews": [
+    {
+                "stars": 5,
+                "body": "I love it",
+                "Author": "joe@gmail.com"
+            },
+            {
+                "stars": 3,
+                "body": "It was ok",
+                "Author": "sore@gmail.com"
+            }
+    
+    ]
+  },
+    {
+    "name": "Azurite",
+    "description": "Lorem ipsum changes the way copy is viewed. It reduces text-based content to a visual design element — a shape of text — instead of what it should be: valuable information someone is going to have to enter and/or read. Dummy text means you won't see the inevitable variations that show up once real information is entered. It means you won't know what it's like to fill out forms on your site. Dummy text is a veil between you and reality.",
+    "shine": 8,
+    "price": 110.50,
+    "rarity": 7,
+    "color": "#CCC",
+    "faces": 14,
+    "canPurchase": true,
+    "soldOut": true,
+    "images": [
+        {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork2.png"
+            },
+             {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork2.png"
+            }
+    ],
+    "reviews": [
+    {
+                "stars": 5,
+                "body": "I love it",
+                "Author": "joe@gmail.com"
+            },
+            {
+                "stars": 3,
+                "body": "It was ok",
+                "Author": "sore@gmail.com"
+            }
+    
+    ]
+  },
+    {
+    "name": "Azurite",
+    "description": "Lorem ipsum changes the way copy is viewed. It reduces text-based content to a visual design element — a shape of text — instead of what it should be: valuable information someone is going to have to enter and/or read. Dummy text means you won't see the inevitable variations that show up once real information is entered. It means you won't know what it's like to fill out forms on your site. Dummy text is a veil between you and reality.",
+    "shine": 8,
+    "price": 110.50,
+    "rarity": 7,
+    "color": "#CCC",
+    "faces": 14,
+    "canPurchase": true,
+    "soldOut": true,
+    "images": [
+        {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork3.png"
+            },
+             {
+                
+                "full": "img/boost.jpg",
+                "thumb": "img/testwork3.png"
+            }
+    ],
+    "reviews": [
+    {
+                "stars": 5,
+                "body": "I love it",
+                "Author": "joe@gmail.com"
+            },
+            {
+                "stars": 3,
+                "body": "It was ok",
+                "Author": "sore@gmail.com"
+            }
+    
+    ]
+  }
+]

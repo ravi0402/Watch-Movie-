@@ -1,0 +1,204 @@
+
+<!DOCTYPE HTML>
+<html ng-app="store">
+<head>
+<title>My Play a Entertainment Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<link rel="icon" href="images/mv.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Play Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' media="all" />
+<!-- //bootstrap -->
+<link href="css/dashboard.css" rel="stylesheet">
+<link type="text/css" href="bootstrap-rating.css" rel="stylesheet" />
+<link type="text/css" href="menu.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' media="all" />
+<link href="css/detail.css" rel='stylesheet' type='text/css' media="all" />
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/store-products.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!--start-smoth-scrolling-->
+<!-- fonts -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+</head>
+  <body ng-controller="StoreController as store" style="background-image:url('bg_2048.jpg') "> 
+
+   <!-- <nav class="navbar navbar-inverse navbar-fixed-top" style="z-index:99999 ; padding-bottom:0px ; background-color:#323232">
+      <div class="container-fluid" >
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://localhost:300/Downloads/2013IPG025/web%281%29/web/"><h1><img src="images/logo.png" alt="" /></h1></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+			<div class="top-search">
+				<form class="navbar-form navbar-right" ng-submit="searchMovieWithTitle(searchText)">
+					<input type="text" class="form-control" placeholder="Search..." ng-keydown="search(searchText)" ng-model="searchText"  ng-click="showCancel=true; showNavbar=true;" >
+					
+					
+				</form>
+				<div ng-show="showCancel">
+				<a  href="#home" class="play-icon" ng-click= "showCancel=false; showKeywords=false; showNavbar=true; searchText = null;" style="font-size:20px;" > Cancel</a>
+				</div>
+			</div>
+			
+        </div>
+		<div class="clearfix"> </div>
+      </div>
+	  
+	  
+	 
+
+	
+<!--	<div id="menu" style="z-index:99998 background-color:#4c4c4c ; " ng-show="showNavbar==true" ng-hide="showNavbar==false">
+    <ul class="menu">
+	<li ><a href="http://localhost:300/Downloads/2013IPG025/web%281%29/web/"><span >Home</span></a></li>
+	
+        
+        
+    </ul>
+</div> --
+	  </nav> -->
+
+	
+ <!-- <div class="sw">
+    <form action="http://storm.it" method="get">
+      <input type="search" name="q" class="search" placeholder="Search the web..." />
+      <button class="go"><span class="entypo-search"></span></button>
+      <a href="#" class="logo" title="Storm"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/44720/logo-white.png" /></a>
+    </form>
+  </div> --><div class="abc" style=" margin:-50px">
+  
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style=" ">
+        
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+ 
+ 
+   
+<div class="col-md-offset-1 col-md-10" ><form ng-submit="searchMovieWithTitle(searchText)"> <input ng-keydown="search(searchText)" ng-model="searchText"  ng-click="showCancel=true; showNavbar=true;" class="mybutton" placeholder="Search your movie here..." /></form></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        
+        <!-- /.container -->
+    </nav> <!-- Intro Section -->
+	
+
+
+	
+	   <div ng-view></div>
+	   
+	   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+     
+		<div class="clearfix"> </div>
+	<div class="drop-menu">
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu4">
+		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Regular link</a></li>
+		  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Disabled link</a></li>
+		  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another link</a></li>
+		</ul>
+	</div></div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	
+    <script src="js/bootstrap.min.js"></script>
+		<script src="bootstrap-rating.js"></script>
+		<script>
+		// Carousel Auto-Cycle
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
+</script>
+
+<script>
+$(document).ready(function() {
+    var $lightbox = $('#lightbox');
+    
+    $('[data-target="#lightbox"]').on('click', function(event) {
+        var $img = $(this).find('img'), 
+            src = $img.attr('src'),
+            alt = $img.attr('alt'),
+            css = {
+                'maxWidth': $(window).width() - 100,
+                'maxHeight': $(window).height() 
+            };
+    
+        $lightbox.find('.close').addClass('hidden');
+        $lightbox.find('img').attr('src', src);
+        $lightbox.find('img').attr('alt', alt);
+        $lightbox.find('img').css(css);
+    });
+    
+    $lightbox.on('shown.bs.modal', function (e) {
+        var $img = $lightbox.find('img');
+            
+        $lightbox.find('.modal-dialog').css({'width': $img.width()});
+        $lightbox.find('.close').removeClass('hidden');
+    });
+});
+</script>
+ <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+	<script type="text/javascript" script-name="amaranth" src="http://use.edgefonts.net/amaranth.js"></script>
+	
+	
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  </body>
+</html>

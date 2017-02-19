@@ -1,0 +1,33 @@
+
+	<div class="col-md-offset-1 col-md-10 main" style=" padding-left:5px ; padding-right:5px ; margin-top:80px" >
+			<div class="main-grids" style="margin-top:-40px">
+				
+				
+				<div class="recommended" >
+					<div class="recommended-grids" >
+						
+						<div class="col-md-3 resent-grid recommended-grid" ng-repeat="product in tmdbSimilar.results |limitTo:18 " style="margin-bottom:10px; margin-top:5px">
+							<div class="resent-grid-img recommended-grid-img thumbnail"  >
+								<a href="" ng-click="gotoMovieDetails(product.id)"><img style="height:300px;" ng-src="http://image.tmdb.org/t/p/w300{{product.poster_path}}" alt="" class="img-responsive" /></a>
+								<div style="height:100px; " class="resent-grid-info recommended-grid-info video-info-grid">
+								<ul>
+									<p><a href="" ng-click="gotoMovieDetails(product.id)" class="title">{{product.original_title | limitTo:25}} ({{ product.release_date |limitTo:4}}) </a></p>
+									
+								</ul>
+								<ul>
+									<p class="author author-info"> <i class="fa fa-star" style="font-size:16px; color:#ff6a17"></i> {{product.vote_average}}&nbsp; Votes({{product.vote_count}})</p>
+									</ul>
+							</div>
+							</div>
+							
+						</div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+			
+		
+	

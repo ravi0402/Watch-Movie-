@@ -1,0 +1,137 @@
+
+		<div class="col-md-offset-1 col-md-10 main" style=" padding-left:5px ; padding-right:5px ; margin-top:80px" >
+			<div class="main-grids" style="margin-top:-40px">
+				
+				
+				<div class="recommended"  >
+					<div class="recommended-grids"  >
+						<div class="recommended-info">
+								<div class="heading">
+									<h3 style="color:#fff">&nbsp; Popular Movies</h3>
+								</div>
+								<div class="heading-right" style="margin-left:910px;">
+									<a  href="#SeeMore_One" >See more</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							
+							
+							
+							
+							
+							<div class="col-lg-2" ng-repeat="product in products.results | limitTo:6">
+    				<div class="cuadro_intro_hover " style="background-color:#cccccc;">
+						<p style="text-align:center; ">
+							<img ng-src="http://image.tmdb.org/t/p/w300{{product.poster_path}}"  class="img-responsive" alt="">
+						</p>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<a href="" ng-click="gotoMovieDetails(product.id)" ><h3 style=" font-size:16px;  padding-top:15px; color:#fff">{{product.original_title | limitTo:25}} ({{ product.release_date |limitTo:4}}) </h3>
+								<p style=" font-size:16px; padding-top:15px; color:#fff"class="author author-info"> <i class="fa fa-star" style="font-size:16px; color:#ff6a17"></i> {{product.vote_average}}<br> Votes ({{product.vote_count}})</p></a>
+									</div>
+						</div>
+					</div>
+				
+	    </div>
+							
+							
+							
+						
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="recommended" >
+					<div class="recommended-grids" >
+						<div class="recommended-info">
+								<div class="heading">
+									<h3 style="color:#fff">&nbsp; Top Rated &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h3>
+								</div>
+								<div class="heading-right" style="margin-left:910px;">
+									<a  href="#SeeMore_Two" class="play-icon ">See more</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						<div class="col-lg-2" ng-repeat="product in toprated.results | limitTo:6">
+    				<div class="cuadro_intro_hover " style="background-color:#cccccc;">
+						<p style="text-align:center; ">
+							<img ng-src="http://image.tmdb.org/t/p/w300{{product.poster_path}}"  class="img-responsive" alt="">
+						</p>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<a href="" ng-click="gotoMovieDetails(product.id)" ><h3 style=" font-size:16px;  padding-top:15px; color:#fff">{{product.original_title | limitTo:25}} ({{ product.release_date |limitTo:4}}) </h3>
+								<p style=" font-size:16px; padding-top:15px; color:#fff"class="author author-info"> <i class="fa fa-star" style="font-size:16px; color:#ff6a17"></i> {{product.vote_average}}<br> Votes ({{product.vote_count}})</p></a>
+									</div>
+						</div>
+					</div>
+				
+	    </div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="recommended" >
+					<div class="recommended-grids" >
+						<div class="recommended-info">
+								<div class="heading">
+									<h3 style="color:#fff">&nbsp; Upcoming &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+								</div>
+								<div class="heading-right" style="margin-left:910px;">
+									<a  href="#SeeMore_Four" class="play-icon ">See more</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						<div class="col-lg-2" ng-repeat="product in upcoming.results | limitTo:6">
+    				<div class="cuadro_intro_hover " style="background-color:#cccccc;">
+						<p style="text-align:center; ">
+							<img ng-src="http://image.tmdb.org/t/p/w300{{product.poster_path}}"  class="img-responsive" alt="">
+						</p>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<a href="" ng-click="gotoMovieDetails(product.id)" ><h3 style=" font-size:16px;  padding-top:15px; color:#fff">{{product.original_title | limitTo:25}} ({{ product.release_date |limitTo:4}}) </h3>
+								<p style=" font-size:16px; padding-top:15px; color:#fff"class="author author-info"> <i class="fa fa-star" style="font-size:16px; color:#ff6a17"></i> {{product.vote_average}}<br> Votes ({{product.vote_count}})</p></a>
+									</div>
+						</div>
+					</div>
+				
+	    </div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="recommended" >
+					<div class="recommended-grids" >
+						<div class="recommended-info">
+								<div class="heading" >
+									<h3 style="color:#fff">&nbsp; Now Playing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+								</div>
+								<div class="heading-right" style="margin-left:910px;">
+									<a  href="#SeeMore_Three" class="play-icon ">See more</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						<div class="col-lg-2" ng-repeat="product in nowplaying.results | limitTo:6">
+    				<div class="cuadro_intro_hover " style="background-color:#cccccc;">
+						<p style="text-align:center; ">
+							<img ng-src="http://image.tmdb.org/t/p/w300{{product.poster_path}}"  class="img-responsive" alt="">
+						</p>
+						<div class="caption">
+							<div class="blur"></div>
+							<div class="caption-text">
+								<a href="" ng-click="gotoMovieDetails(product.id)" ><h3 style=" font-size:16px;  padding-top:15px; color:#fff">{{product.original_title | limitTo:25}} ({{ product.release_date |limitTo:4}}) </h3>
+								<p style=" font-size:16px; padding-top:15px; color:#fff"class="author author-info"> <i class="fa fa-star" style="font-size:16px; color:#ff6a17"></i> {{product.vote_average}}<br> Votes ({{product.vote_count}})</p></a>
+									</div>
+						</div>
+					</div>
+				
+	    </div>
+						
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			
+</div>
